@@ -259,5 +259,5 @@ def main():
   with open(args.output_file, "w") as output_file:
     output_file.write(output)
 
-if __name__ == "__main__":
+if __name__ == "__main__" or __name__ == "recombine":
   main()

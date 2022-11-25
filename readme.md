@@ -5,7 +5,7 @@ ___
 
 ## how to use
 ```shell
-$ python3 recombine.py -h
+$ python3 -m recombine -h
 ```
 ```shell
 usage: recombine [-h] [-o OUTPUT_FILE] [-d DIRECTORY] [-f CONFIG_FILE] [-v]

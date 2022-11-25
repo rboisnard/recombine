@@ -1,4 +1,7 @@
 __pycache__
+**/__pycache__
+.venv
 .vscode
 build
+recombine.egg-info
 test/recombined/recombined.h
