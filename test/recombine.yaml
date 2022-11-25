@@ -1,0 +1,14 @@
+sources:
+  - main.cpp
+  - classes/Class1.cpp
+  - classes/Class2.cpp
+  - classes/Class3.cpp
+
+include_dirs:
+  - include
+
+definitions:
+  - OVERRIDE_FROM_COMBINE_CONFIG
+
+ignore_list:
+  - test_original.cpp
