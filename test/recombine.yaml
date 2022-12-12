@@ -9,6 +9,3 @@ include_dirs:
 
 definitions:
   - OVERRIDE_FROM_COMBINE_CONFIG
-
-ignore_list:
-  - test_original.cpp

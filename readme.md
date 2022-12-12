@@ -39,7 +39,7 @@ TODO: move to CI
 * generate a recombined version of the test project:
 
   ```shell
-  $ python3 recombine.py -o test/recombined/recombined.h -d test/original -f test/recombine.yaml
+  $ python3 -m recombine -o test/recombined/recombined.h -d test/original -f test/recombine.yaml
   ```
 
 * build and validate the result (unit tests expect different results from original and recombined by design)

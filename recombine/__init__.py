@@ -240,12 +240,7 @@ def main():
       logging.warning(f"source file '{src/source_file}' not found")
       exit(1)
 
-  for source_file in config["ignore_list"]:
-    if source_file in config["sources"]:
-      logging.warning(f"source file '{src/source_file}' is listed in both 'sources' and 'ignore_list', this is not compatible")
-      exit(1)
-
-  output = ""
+  output = "/*\n * source code generated from split sources\n * https://github.com/rboisnard/recombine\n */\n\n"
   for source_file in config["sources"]:
     cdl = CompileDefinitionList(config)
     output += _parse_file(

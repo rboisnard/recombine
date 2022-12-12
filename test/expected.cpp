@@ -1,3 +1,8 @@
+/*
+ * source code generated from split sources
+ * https://github.com/rboisnard/recombine
+ */
+
 #include <iostream>
 
 
