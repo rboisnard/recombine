@@ -54,3 +54,15 @@ TODO: move to CI
   ```shell
   $ diff test/expected.cpp test/recombined/recombined.h
   ```
+
+___
+
+## how to contribute
+
+Contact me to explain the change you'd like to introduce and then send a pull request. Please avoid massive refactoring in one go or hundreds of commits.
+
+*What's missing:*
+* a CI with github actions first
+* a documentation on the yaml description file
+* better edge cases in the test C++ project
+* pytest test cases as well ?
